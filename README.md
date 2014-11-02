@@ -12,7 +12,7 @@ This is done for the sake of ease and transparency.
 
 Installation
 ---------
-To run your copy of Unsee locally you'll probably need 
+To run your copy of Unsee locally you'll probably need to run scripts located at `scripts/build`.
 
 Requirements
 -----
