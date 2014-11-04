@@ -14,4 +14,5 @@ apt-get install \
     geoip \
     libgeoip-dev \
     libcr-dev \
-    libperl-dev
+    libperl-dev \
+    redis-server
