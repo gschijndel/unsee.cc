@@ -488,6 +488,24 @@
             <tuv xml:lang="ru"><seg>Изображения будут удалены после первого просмотра другим человеком</seg></tuv>
             <tuv xml:lang="en"><seg>Deletes images after the other party views it</seg></tuv>
         </tu>
+
+        <tu tuid="settings_delete_ttl_ten">
+            <tuv xml:lang="ru"><seg>Через 10 минут</seg></tuv>
+            <tuv xml:lang="en"><seg>In 10 minutes</seg></tuv>
+        </tu>
+        <tu tuid="settings_delete_ttl_ten_caption">
+            <tuv xml:lang="ru"><seg>Изображения удалятся через 10 минут после загрузки</seg></tuv>
+            <tuv xml:lang="en"><seg>Deletes images in 10 minutes after upload</seg></tuv>
+        </tu>
+
+        <tu tuid="settings_delete_ttl_thirty">
+            <tuv xml:lang="ru"><seg>Через 30 минут</seg></tuv>
+            <tuv xml:lang="en"><seg>In 30 minutes</seg></tuv>
+        </tu>
+        <tu tuid="settings_delete_ttl_thirty_caption">
+            <tuv xml:lang="ru"><seg>Изображения удалятся через полчаса после загрузки</seg></tuv>
+            <tuv xml:lang="en"><seg>Deletes images in half an hour after upload</seg></tuv>
+        </tu>
         
         <tu tuid="settings_delete_ttl_hour">
             <tuv xml:lang="ru"><seg>Через час</seg></tuv>
