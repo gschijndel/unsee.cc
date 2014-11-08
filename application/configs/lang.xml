@@ -497,7 +497,7 @@
             <tuv xml:lang="ru"><seg>Изображения удалятся через 10 минут после загрузки</seg></tuv>
             <tuv xml:lang="en"><seg>Deletes images in 10 minutes after upload</seg></tuv>
         </tu>
-
+
         <tu tuid="settings_delete_ttl_thirty">
             <tuv xml:lang="ru"><seg>Через 30 минут</seg></tuv>
             <tuv xml:lang="en"><seg>In 30 minutes</seg></tuv>
