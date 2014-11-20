@@ -56,10 +56,10 @@
             <tuv xml:lang="ru"><seg>через сутки</seg></tuv>
             <tuv xml:lang="en"><seg>in one day</seg></tuv>
         </tu>
-        <tu tuid="after_week">
+        <!--<tu tuid="after_week">
             <tuv xml:lang="ru"><seg>через неделю</seg></tuv>
             <tuv xml:lang="en"><seg>in a week</seg></tuv>
-        </tu>
+        </tu>-->
         <tu tuid="choose_images">
             <tuv xml:lang="ru"><seg>Выберите изображения</seg></tuv>
             <tuv xml:lang="en"><seg>Click to upload</seg></tuv>
@@ -525,14 +525,14 @@
             <tuv xml:lang="en"><seg>Deletes images in 24 hours after the upload</seg></tuv>
         </tu>
         
-        <tu tuid="settings_delete_ttl_week">
+        <!--<tu tuid="settings_delete_ttl_week">
             <tuv xml:lang="ru"><seg>Через неделю</seg></tuv>
             <tuv xml:lang="en"><seg>In a week</seg></tuv>
         </tu>
         <tu tuid="settings_delete_ttl_week_caption">
             <tuv xml:lang="ru"><seg>Страница будет доступна в течении 7 дней</seg></tuv>
             <tuv xml:lang="en"><seg>This page will live for 7 days total</seg></tuv>
-        </tu>
+        </tu>-->
 
         <tu tuid="day_one">
             <tuv xml:lang="ru"><seg>день</seg></tuv>
