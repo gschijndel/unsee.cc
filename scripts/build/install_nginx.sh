@@ -1,6 +1,11 @@
 #!/bin/sh
 
-# Reinstalls nginx with concat module
+# (re)Installs nginx with concat module
+
+if [ -n $(2>&1 nginx -V | tr -- - '\n' | grep concat) ]; then
+    echo Nginx already has concat module
+    exit;
+fi
 
 tmpDir=/tmp/nginx_install/
 mkdir -p $tmpDir
@@ -28,7 +33,7 @@ _pid_path="/run"
 _lock_path="/var/lock"
 _log_path="/var/log/${_pkgname}"
 
-./configure \
+./auto/configure \
     --prefix="/${_conf_path}" \
     --conf-path="/${_conf_path}/nginx.conf" \
     --sbin-path="/usr/sbin/${_pkgname}" \
@@ -63,7 +68,7 @@ _log_path="/var/log/${_pkgname}"
     --with-http_perl_module \
     --with-http_degradation_module \
     --with-http_geoip_module \
-    --with-http_spdy_module \
+    --with-http_v2_module \
     --with-http_gunzip_module \
     --add-module=../nginx-http-concat-master/
 

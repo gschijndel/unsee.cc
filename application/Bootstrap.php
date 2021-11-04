@@ -12,10 +12,6 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
         if (empty($_SERVER['HTTP_USER_AGENT'])) {
             $_SERVER['HTTP_USER_AGENT'] = 'cli';
         }
-
-        if (empty($_SERVER['SERVER_NAME'])) {
-            $_SERVER['SERVER_NAME'] = 'unsee.cc';
-        }
     }
 
     protected function _initDocType()
@@ -45,7 +41,6 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
         $this->bootstrap('frontController');
         $front = Zend_Controller_Front::getInstance();
         $front->registerPlugin(new Unsee_Controller_Plugin_Headers());
-        $front->registerPlugin(new Unsee_Controller_Plugin_Dnt());
     }
 
     public function _initTimezone()
